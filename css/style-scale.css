@@ -1,0 +1,65 @@
+:root {
+	font-size: 9px;	
+}
+@media (min-width: 1024px) {
+	.text-body,
+	.text-body-large,
+	.text-body-main,
+	.text-body-min,
+	.text-body-note,
+	.text-body-small {
+		font-size: 2.2rem;
+	}
+
+	.text-body-large {
+		font-size: 3rem
+	}
+
+	.text-body-small {
+		font-size: 2rem
+	}
+
+	.text-body-main {
+		font-size: 1.8rem;
+	}
+
+	.text-body-min {
+		font-size: 1.8rem;
+	}
+
+	.text-body-note {
+		font-size: 1.6rem
+	}
+
+	.item-tile-question {
+		font-size: 1.6rem;;
+	}
+	.item-tile-plan {
+		font-size: 1.6rem;
+		.tile-photo {
+			font-size: 12px;
+		}
+	}
+	.main-section-plan-box table {
+		font-size: 1.8rem;
+	}
+	.main-section-plan-box table .elm-ico {
+		width: 3.2rem;
+		height: 3.2rem;
+	}
+	.main-buttons-wrap.buttons-small .btn-action-app {
+		width: 150px;
+	}
+	.footer .btn-action-app {
+		max-width: 160px;
+	}
+	.footer .btn-action-qr {
+		max-width: 130px;
+	}
+	.footer {
+		font-size: 13px;
+	}
+	.header {
+		font-size: 2rem;
+	}
+}
